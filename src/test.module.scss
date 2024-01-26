@@ -1,0 +1,8 @@
+@import "./mixins";
+
+.p {
+  @include text;
+
+  background-color: red;
+  backdrop-filter: blur();
+}
